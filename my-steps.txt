@@ -111,7 +111,21 @@ branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
-
+$ git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+$ git commit -m 'starting a menu'
+[main 6d8ebe4] starting a menu
+ 2 files changed, 55 insertions(+), 26 deletions(-)
+ create mode 100644 menu.txt
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.16 KiB | 1.16 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/DavidBrameijer/unit1-git-practice.git
+   15c576a..6d8ebe4  main -> main
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
